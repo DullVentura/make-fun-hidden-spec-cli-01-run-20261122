@@ -1,5 +1,9 @@
 # mend
 
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/DullVentura/make-fun-hidden-spec-cli-01-run-20261122/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/DullVentura/make-fun-hidden-spec-cli-01-run-20261122/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+
 `mend` applies an edit that an AI model wrote to a tree of text files — in any of the
 four formats models write them in — to one specification (`SPEC.md` in the kit
 starter): unified diffs (even with wrong line numbers), SEARCH/REPLACE blocks, the
@@ -7,7 +11,11 @@ V4A patch format, and text-editor tool calls as JSON. It finds the lines an edit
 names even when their whitespace or indentation drifted, and changes every file or
 none at all.
 
-    node main.ts [--format=NAME] [--check] [--strict] [PATCH]
+## Run it
+
+```sh
+node main.ts [--format=NAME] [--check] [--strict] [PATCH]
+```
 
 - `--format=NAME`: `unified`, `search-replace`, `v4a`, `json`, or `auto` (default,
   detected from the patch text).
@@ -39,3 +47,7 @@ Practice score on the kit's 100 public checks: 1000/1000.
 Built for the Make Fun bounty
 [hidden-spec-cli-01-run-20261122](https://make.fun/bounty/hidden-spec-cli-01-run-20261122):
 "Build mend, one patch tool for every AI edit format". MIT licensed.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=39p607f8&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
